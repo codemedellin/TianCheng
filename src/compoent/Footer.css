@@ -1,0 +1,277 @@
+@import url(//db.onlinewebfonts.com/c/f7c58ab3a48dba52edc01e3ed4425a8d?family=Poster+Bodoni);
+@import url('https://fonts.cdnfonts.com/css/bahnschrift');
+
+
+.footer {
+  background-color: #fff;
+  color: rgb(22, 22, 22);
+  padding: 40px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.left-section,
+.center-section,
+.right-section {
+  flex: 1 1 33%;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+
+
+
+
+.location{
+
+text-align: left;
+ margin-bottom: 20px; 
+}
+
+
+
+.location h3{
+
+text-align: left;
+ margin-bottom: 20px; 
+ font-family: 'Bahnschrift', sans-serif;
+ color: red;
+}
+
+.location p{
+
+text-align: left;
+ margin-bottom: 4px; 
+ color: rgb(0, 0, 0);
+ font-family: 'Bahnschrift', sans-serif;
+}
+
+
+
+.kung-fu-flavor {
+  margin-bottom: 20px; /* Separación vertical entre los elementos */
+}
+
+.kung-fu-flavor  img{
+ width:50%;
+ margin-right: 10px; /* Separación vertical entre los elementos */
+}
+
+.center-text h2{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  margin-bottom: 4px; 
+  margin-top: 8px;
+  font-family: 'Poster Bodoni';/* Separación vertical entre los elementos */
+}
+
+.center-text p{
+
+  font-family: 'Bahnschrift', sans-serif;
+  text-align: center;
+   margin-top: 8px;
+  color: #E63331;
+  margin-bottom: 10px; /* Separación vertical entre los elementos */
+}
+
+
+
+.logo1 {
+  max-width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px; /* Separación vertical entre los elementos */
+}
+
+.social-media a {
+  display: inline-block;
+  margin-right: 10px;
+  color: rgb(63, 63, 63);
+  text-decoration: none;
+}
+
+.icon {
+  max-width: 3rem;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.phones,
+.whatsapp {
+  text-align: left;
+  margin-bottom: 20px;
+ /* Separación vertical entre los elementos */
+}
+
+
+.phones,
+.whatsapp h3 {
+  color:#E63331; 
+  font-family: 'Bahnschrift', sans-serif;/* Separación vertical entre los elementos */
+}
+
+
+
+.phones ul {
+  font-family: 'Bahnschrift', sans-serif;
+  list-style-type: none;
+  margin-bottom: 8px;
+  color: black;
+}
+
+.phones li {
+  margin-bottom: 4px;
+  font-family: 'Bahnschrift', sans-serif;
+  letter-spacing: 3px;
+}
+
+.whatsapp p {
+font-family: 'Bahnschrift', sans-serif;
+ letter-spacing: 2px;
+}
+
+
+
+
+
+.texw{
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: 'Bahnschrift', sans-serif;
+}
+
+.bottom-section {
+  margin-top: 40px;
+}
+
+.mini-footer {
+  font-family: 'Bahnschrift', sans-serif;
+  margin-top: 40px;
+  color: #353535;
+  background-color: rgb(255, 255, 255);
+}
+
+
+/* Estilos para la versión móvil */
+@media only screen and (max-width: 600px) {
+
+  /* Centrar los elementos en el pie de página */
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Hacer que los tres elementos ocupen el mismo espacio disponible */
+  .left-section,
+  .center-section,
+  .right-section {
+    flex: 1;
+    max-width: 100%; /* Asegurar que cada sección ocupe todo el ancho disponible */
+  }
+
+  /* Centrar el contenido en cada sección */
+  .left-section,
+  .center-section,
+  .right-section {
+    text-align: center;
+  }
+
+  /* Asegurar que las imágenes ocupen todo el ancho disponible */
+  .kung-fu-flavor img {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  /* Reducir el tamaño de la tipografía */
+  .center-text h2 {
+    font-size: 20px;
+  }
+
+  .center-text p {
+    font-size: 12px;
+  }
+
+  /* Ajustar el tamaño del logotipo */
+  .logo1 {
+    max-width: 80px;
+  }
+
+  /* Alinear los elementos sociales y reducir el margen */
+  .social-media {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+
+  .social-media a {
+    margin: 0 5px;
+  }
+
+  /* Centrar el contenido en la sección derecha */
+  .right-section {
+    text-align: center;
+  }
+
+  /* Alinear los elementos de teléfonos y reducir el margen */
+  .phones,
+  .whatsapp {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  /* Reducir el tamaño de la tipografía para los números de teléfono */
+  .phones ul,
+  .whatsapp p {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Ajustar el margen inferior de los elementos de teléfonos */
+  .phones li {
+    margin-bottom: 1px;
+  }
+
+  /* Reducir el tamaño de la tipografía para el texto inferior */
+  .texw {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    font-size: 10px;
+  }
+
+  /* Ajustar el margen superior de la sección inferior */
+  .bottom-section {
+    margin-top: 10px;
+  }
+
+  /* Ajustar el margen superior del mini pie de página */
+  .mini-footer {
+    margin-top: 10px;
+  }
+}

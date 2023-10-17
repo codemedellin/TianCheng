@@ -1,0 +1,324 @@
+@import url(https://pl.allfont.net/allfont.css?fonts=wonton-by-da-font-mafia);
+@import url(//db.onlinewebfonts.com/c/f7c58ab3a48dba52edc01e3ed4425a8d?family=Poster+Bodoni);
+@import url('https://fonts.cdnfonts.com/css/bahnschrift');
+.banner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 20px;
+}
+
+.banner-image {
+  flex: 1;
+}
+
+.banner-image img {
+  width: 70%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.banner-text {
+  flex: 1;
+}
+
+.banner-text h2 {
+  margin: 0;
+  font-family: 'Bahnschrift', sans-serif;
+  margin-bottom: 10px;
+}
+
+.banner-text h1 {
+  margin: 0;
+  font-family: 'Wonton by Da Font Mafia', arial;
+  margin-bottom: 20px;
+  font-size: 7rem;
+  color: #E63331;
+}
+
+.banner-text button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #E63331;
+  font-family: 'Bahnschrift', sans-serif;
+  border-radius: 25px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.banner-text button .nuestro {
+  color: #fff;
+}
+
+.top5 {
+  margin: 20px 0;
+  padding-bottom: 4rem;
+  background-color: #E63331;
+}
+
+.top5 h2 {
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Wonton by Da Font Mafia', arial;
+  color: #fff;
+}
+
+.top5 .carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  overflow: hidden;
+}
+
+.top5 .carousel-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  text-align: center;
+  transition: transform 0.5s;
+}
+
+.top5 .carousel-item:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.top5 .carousel-item img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.top5 .carousel-item h4 {
+  margin-top: 10px;
+  color: #fff;
+  font-family: 'Bahnschrift', sans-serif;
+}
+
+.top5 .carousel .carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top5 .carousel .carousel-indicators li {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.top5 .carousel
+.carousel .carousel-indicators li.active {
+background-color: #b4b4b6;
+}
+
+.top5 .carousel .carousel-indicators img {
+width: 10px;
+height: 10px;
+object-fit: cover;
+border-radius: 50%;
+margin-top: -40px;
+}
+
+.top5 .carousel .carousel-indicators li::before {
+content: "";
+width: 8px;
+height: 8px;
+border-radius: 50%;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+.top5 .carousel .control-prev,
+.top5 .carousel .control-next {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+background-color: rgba(0, 0, 0, 0.5);
+color: #fff;
+padding: 5px 10px;
+font-size: 20px;
+cursor: pointer;
+z-index: 1;
+}
+
+.top5 .carousel .control-prev {
+left: 10px;
+}
+
+.top5 .carousel .control-next {
+right: 10px;
+}
+
+.boton {
+display: flex;
+align-items: center;
+}
+
+.boton button {
+margin-top: -80px;
+margin-left: auto;
+margin-right: auto;
+padding: 10px 20px;
+background-image: linear-gradient(to right, #E63331, #000000);
+border-radius: 25px;
+color: white;
+border: none;
+font-family: 'Bahnschrift', sans-serif;
+cursor: pointer;
+}
+
+.boton button .nuestro {
+color: white;
+}
+
+.about-us {
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+text-align: center;
+padding: 20px;
+}
+
+.about-us-image {
+flex: 1;
+padding: 10px;
+}
+
+.about-us-image img {
+width: 100%;
+height: auto;
+border-radius: 10px;
+}
+
+.about-us-text {
+flex: 1;
+padding: 20px;
+font-family: 'Bahnschrift', sans-serif;
+}
+
+.about-us h2 {
+margin-left: auto;
+margin-right: auto;
+margin-top: 0;
+font-family: 'Wonton by Da Font Mafia', arial;
+color: #E63331;
+font-size: 70px;
+}
+
+
+
+
+
+/* Estilos para dispositivos con ancho de pantalla menor o igual a 680px */
+@media only screen and (max-width: 680px) {
+  
+  .banner{
+  
+    flex-direction: column;
+    text-align: center;
+  
+  }
+  
+    
+  .banner-image {
+    order: 2;
+  }
+
+  .banner-text  {
+     order: 1;
+  }
+
+
+
+  .banner-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .banner-text h1 {
+    font-size: 5rem;
+  }
+
+  .top5 h2 {
+    font-size: 60px;
+  }
+
+  .top5 .carousel-item img {
+    max-width: 99%;
+    height: auto;
+    border-radius: 1%;
+  }
+
+
+
+.top5 .carousel-item i {
+   width:1px;
+  }
+
+
+
+
+/* Estilos para los puntos de estado del carrusel */
+.top5  .carousel-status {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top5 .carousel-status .carousel-status-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+}
+
+.top5 .carousel-status .carousel-status-dot.active {
+  background-color: #E63331;
+}
+
+
+
+
+
+  .about-us h2 {
+    font-size: 60px;
+  }
+
+  .about-us {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-us-image {
+    order: 2;
+    margin-top: 20px;
+  }
+
+  .about-us-text {
+    order: 1;
+    margin-top: 20px;
+  }
+}
+

@@ -1,0 +1,40 @@
+.ca .pro .un .produ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ca .pro .un .produ img {
+  width: 28rem;
+  border-radius: 20px;
+}
+
+.ca .pro .un {
+  margin-top: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 576px) {
+  .ca .pro .un .produ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ca .pro .un .produ img {
+    width: 100%;
+    border-radius: 20px;
+    margin-left: 12%;
+  }
+
+  .ca .pro .un {
+    margin-top: 4px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+  }
+}

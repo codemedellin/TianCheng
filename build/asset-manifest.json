@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.31feabd5.css",
+    "main.js": "/static/js/main.46b391c9.js",
+    "static/js/787.d3bb98d2.chunk.js": "/static/js/787.d3bb98d2.chunk.js",
+    "static/media/Chowfan.jpg": "/static/media/Chowfan.0aac8570a7b903f8a192.jpg",
+    "static/media/arroz3.png": "/static/media/arroz3.183c8ce02092d35f27e2.png",
+    "static/media/Combinados.jpg": "/static/media/Combinados.9c935c8ae646b23420fa.jpg",
+    "static/media/Gas.png": "/static/media/Gas.2e673b3af431d1ba39f0.png",
+    "static/media/arroz4.png": "/static/media/arroz4.903a9580be80f695add0.png",
+    "static/media/Especiales.jpg": "/static/media/Especiales.8c44bc2b2f22d864e2a0.jpg",
+    "static/media/Agridulce.jpg": "/static/media/Agridulce.cbd2ccfee95ce4e398b7.jpg",
+    "static/media/arroz5.png": "/static/media/arroz5.6f798996bb3c29b0c138.png",
+    "static/media/arrozconcamarones2.jpg": "/static/media/arrozconcamarones2.b799af7251fad84243f5.jpg",
+    "static/media/Entradas.jpg": "/static/media/Entradas.4020ca23a82c50d1c4ce.jpg",
+    "static/media/Chowsuey.jpg": "/static/media/Chowsuey.7652b6c28651aaa513e1.jpg",
+    "static/media/arroz2.png": "/static/media/arroz2.fe98c3ca03d4df4c249b.png",
+    "static/media/arroz1.png": "/static/media/arroz1.0ce73efd434e924e0838.png",
+    "static/media/whatsapp.png": "/static/media/whatsapp.85c90a8c5e01e3a2b792.png",
+    "static/media/whatsappG.png": "/static/media/whatsappG.85c90a8c5e01e3a2b792.png",
+    "static/media/Instagram.png": "/static/media/Instagram.609b5a66a530a2baba3b.png",
+    "static/media/phone.png": "/static/media/phone.01cf98e50e1ed0739f2c.png",
+    "static/media/Facebook.png": "/static/media/Facebook.875889129e731fb6b3c3.png",
+    "static/media/fondoR.png": "/static/media/fondoR.d272462c4d85f9400d0b.png",
+    "static/media/fondob.png": "/static/media/fondob.65cccc74994a17b5859a.png",
+    "static/media/footer.png": "/static/media/footer.b61a419e9e930b183ec6.png",
+    "static/media/Chef.jpg": "/static/media/Chef.e8b2d3fa905af29f73ef.jpg",
+    "static/media/Tian.png": "/static/media/Tian.670a4df93d9672a851d0.png",
+    "static/media/Kung.png": "/static/media/Kung.76d77dabc473bc57d795.png",
+    "index.html": "/index.html",
+    "main.31feabd5.css.map": "/static/css/main.31feabd5.css.map",
+    "main.46b391c9.js.map": "/static/js/main.46b391c9.js.map",
+    "787.d3bb98d2.chunk.js.map": "/static/js/787.d3bb98d2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31feabd5.css",
+    "static/js/main.46b391c9.js"
+  ]
+}

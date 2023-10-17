@@ -1,0 +1,125 @@
+@import url('https://fonts.cdnfonts.com/css/bahnschrift');
+
+.cajon {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Bahnschrift', sans-serif;
+}
+
+.producto {
+  margin-bottom: 34px;
+  transition: background-color 0.2s ease; /* Agregamos la transición de color */
+}
+
+.producto.selected {
+  padding-bottom: 4px;
+  padding-right: 2px;
+  color: #E63331;
+  /* Cambiamos el color de fondo cuando el producto está seleccionado */
+}
+
+.producto.selected .n h3 {
+  color: #E63331;
+  /* Cambiamos el color de fondo cuando el producto está seleccionado */
+}
+
+.product-details {
+  display: flex;
+  margin: 8px;
+}
+
+.n {
+  width: 66%;
+  justify-content: start;
+}
+
+.n h3 {
+  margin: 1px;
+  font-size: 1.3rem;
+  text-align: left;
+   justify-content: start;
+  color: black;
+}
+
+.p {
+  width: 34%;
+  margin-left: 10px;
+  display: flex;
+  margin-top: 1px;
+}
+
+.price {
+  display: flex;
+  margin: 8px;
+}
+
+.p p {
+  margin: 8px;
+  justify-content: space-around;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 576px) {
+  @import url('https://fonts.cdnfonts.com/css/bahnschrift');
+
+  .cajon {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Bahnschrift', sans-serif;
+    align-items: flex-start; /* Alinear el contenido a la izquierda */
+    margin-left: 10px; /* Agregar un margen a la izquierda */
+    margin-right: 10px; /* Agregar un margen a la derecha */
+  }
+
+  .producto {
+    margin-bottom: 24px;
+    transition: background-color 0.2s ease;
+  }
+
+  .producto.selected {
+    padding-bottom: 2px;
+    padding-right: 1px;
+    color: #7b170f;
+  }
+  
+  .producto.selected .n h3 {
+    color: #E63331;
+  }
+
+  .product-details {
+    display: flex;
+    margin: 4px;
+  }
+
+  .n {
+    width: 100%; /* Ocupar todo el ancho disponible */
+    margin: 2px;
+    margin-right: 0;
+     justify-content: start; /* Eliminar el margen derecho */
+    text-align: right; /* Alinear el texto a la derecha */
+  }
+
+  .n h3 {
+    margin: 1px;
+    font-size: 1.2rem;
+    text-align: left; /* Alinear el texto a la derecha */
+    color: black;
+     justify-content: start;
+  }
+
+  .p {
+    width: 100%; /* Ocupar todo el ancho disponible */
+    margin-left: 0; /* Eliminar el margen izquierdo */
+    display: flex;
+    justify-content: space-between; /* Alinear los elementos en el espacio disponible */
+  }
+
+  .price {
+    display: flex;
+    margin: 4px;
+  }
+
+  .p p {
+    margin: 4px;
+      justify-content: space-around;
+  }}

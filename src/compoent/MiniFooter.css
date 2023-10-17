@@ -1,0 +1,30 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&display=swap');
+
+
+.mini-footer {
+  text-align: center;
+  background-color: #ffffffe7;
+  color: rgb(54, 54, 54);
+  padding: 10px;
+  font-family: 'Karla', sans-serif;
+}
+
+
+.mini-footer a {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+}
+
+
+.mini-footer a:hover {
+  cursor: default;
+}
+
+.mini-footer p {
+  background-color: #fff;
+  color: rgb(29, 29, 29);
+  text-align: center;
+  margin: 0 auto; /* Centra horizontalmente el texto */
+  padding: 5px 10px; /* Agrega espacio interno alrededor del texto */
+}

@@ -3,7 +3,7 @@ import "./navbar.css";
 import { NavLink } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import { ImCross } from "react-icons/im";
-import logo from "../img/Tian.png";
+import logo from "../img/Tian.webp";
 
 const Navbar = () => {
   const [mobile, setMobile] = useState(false);

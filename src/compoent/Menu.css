@@ -5,7 +5,7 @@
 @import url('https://fonts.cdnfonts.com/css/bahnschrift');
 
 
-@import url(https://pl.allfont.net/allfont.css?fonts=wonton-by-da-font-mafia);
+@import url('https://fonts.cdnfonts.com/css/wonton');
 
 .menu-container {
   text-align: center;
@@ -29,7 +29,7 @@ font-family: 'Bahnschrift', sans-serif;
   font-size: 10rem;
   margin-bottom: 60px;
   margin-top: -30px;
-   font-family: 'Wonton by Da Font Mafia';
+   font-family: 'Wonton', sans-serif;
    background-image: linear-gradient(to right, #E63331, #0c0c0c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -72,59 +72,20 @@ font-family: 'Bahnschrift', sans-serif;
 }
 
 @media (min-width: 576px) {
-  /* Para pantallas con un ancho mínimo de 576px */
   .product-list {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 992px) {
-  /* Para pantallas con un ancho mínimo de 992px */
   .product-list {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2.4, 1fr);
   }
 }
 
-@media (max-width: 320px) {
-  /* Para pantallas con un ancho máximo de 320px */
-  .product-list {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
 
-.product-list .product-item {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  background-color: #f2f2f2;
-}
-
-
-
-
-
-.z {
-  margin-bottom: -30px;
-  display: flex;
-  margin: 3rem;
-}
-
-.y {
-  order: -1; 
-  margin-top: 60px;
-   margin: 3rem;/* Mueve el elemento 'y' hacia la izquierda */
-}
-
-.x {
-  order: 1; 
-  margin-top: 10px;
-   margin-left: 4rem;/* Mueve el elemento 'x' hacia la derecha */
-}
-
-
-
-/* Estilos para pantallas de tamaño mediano */
-@media (min-width: 576px) and (max-width: 992px) {
+/* Estilos para pantallas de tamaño mediano (min-width: 576px) and
+@media  (max-width: 992px) {
   .menu-container h2 {
     font-size: 1.8rem;
     margin-bottom: 30px;
@@ -149,12 +110,12 @@ font-family: 'Bahnschrift', sans-serif;
   }
 }
 
-
+*/
 
 
 
 /* Estilos para dispositivos móviles */
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
   .menu-container h2 {
     font-size: 1.5rem;
     margin-bottom: 20px;
@@ -169,7 +130,7 @@ font-family: 'Bahnschrift', sans-serif;
   .z {
     flex-direction: column;
     align-items: center;
-    margin: 2rem;
+    margin: 1rem;
   }
 
   .y {
@@ -185,3 +146,35 @@ font-family: 'Bahnschrift', sans-serif;
   }
 }
 
+
+@media (max-width: 320px) {
+ 
+  .product-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.product-list .product-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+}
+
+.z {
+  margin-bottom: -30px;
+  display: flex;
+  margin: 3rem;
+}
+
+.y {
+  order: -1; 
+  margin-top: 60px;
+   margin: 3rem;/* Mueve el elemento 'y' hacia la izquierda */
+}
+
+.x {
+  order: 1; 
+  margin-top: 10px;
+   margin-left: 4rem;/* Mueve el elemento 'x' hacia la derecha */
+}

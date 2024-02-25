@@ -1,11 +1,11 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import arroz1 from "../img/arroz1.png";
-import arroz2 from "../img/arroz2.png";
-import arroz3 from "../img/arroz3.png";
-import arroz4 from "../img/arroz4.png";
-import arroz5 from "../img/arroz5.png";
+import arroz1 from "../img/arroz1.webp";
+import arroz2 from "../img/arroz2.webp";
+import arroz3 from "../img/arroz3.webp";
+import arroz4 from "../img/arroz4.webp";
+import arroz5 from "../img/arroz5.webp";
 
 const DesktopCarousel = () => {
   return (

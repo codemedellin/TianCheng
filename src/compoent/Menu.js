@@ -3,11 +3,8 @@ import React, { useState, useEffect } from 'react';
 import products from './data';
 import ProductList from './ProductList';
 import './Menu.css';
-import fondob from "../img/fondob.png";
+import fondob from "../img/fondob.webp";
 import PList from './PList';
-
-
-
 
 const Menu = () => {
   const [selectedCategory, setSelectedCategory] = useState('');

@@ -1,13 +1,11 @@
 import React from 'react';
 import './Footer.css';
-import logo from '../img/footer.png';
-import WhatsAppIcon from '../img/whatsapp.png';
-import PhoneIcon from '../img/phone.png';
-import InstagramIcon from '../img/Instagram.png';
-import FacebookIcon from '../img/Facebook.png';
-import Kung from '../img/Kung.png';
-import MiniFooter from './MiniFooter';
-
+import logo from '../img/footer.webp';
+import WhatsAppIcon from '../img/whatsapp.webp';
+import PhoneIcon from '../img/phone.webp';
+import InstagramIcon from '../img/Instagram.webp';
+import FacebookIcon from '../img/Facebook.webp';
+import Kung from '../img/Kung.webp';
 const Footer = () => {
   return (
     <div className="footer">

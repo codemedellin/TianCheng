@@ -1,5 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/bahnschrift');
-
+@import url('https://fonts.cdnfonts.com/css/wonton');
 
 
 
@@ -29,7 +29,7 @@
 .banner1-title {
   font-size: 24px;
   margin-bottom: 10px;
-  font-family: 'Bahnschrift', sans-serif;
+ font-family: 'Wonton', sans-serif;
 }
 
 .banner1-text {

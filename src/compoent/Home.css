@@ -1,4 +1,4 @@
-@import url(https://pl.allfont.net/allfont.css?fonts=wonton-by-da-font-mafia);
+@import url('https://fonts.cdnfonts.com/css/wonton');
 @import url(//db.onlinewebfonts.com/c/f7c58ab3a48dba52edc01e3ed4425a8d?family=Poster+Bodoni);
 @import url('https://fonts.cdnfonts.com/css/bahnschrift');
 .banner {
@@ -23,15 +23,15 @@
   flex: 1;
 }
 
-.banner-text h2 {
+.banner-text h3 {
   margin: 0;
   font-family: 'Bahnschrift', sans-serif;
   margin-bottom: 10px;
 }
 
-.banner-text h1 {
+.banner-text h2 {
   margin: 0;
-  font-family: 'Wonton by Da Font Mafia', arial;
+  font-family: 'Wonton', sans-serif;
   margin-bottom: 20px;
   font-size: 7rem;
   color: #E63331;
@@ -62,7 +62,7 @@
 .top5 h2 {
   text-align: center;
   font-size: 70px;
-  font-family: 'Wonton by Da Font Mafia', arial;
+ font-family: 'Wonton', sans-serif;
   color: #fff;
 }
 
@@ -217,7 +217,7 @@ font-family: 'Bahnschrift', sans-serif;
 margin-left: auto;
 margin-right: auto;
 margin-top: 0;
-font-family: 'Wonton by Da Font Mafia', arial;
+ font-family: 'Wonton', sans-serif;
 color: #E63331;
 font-size: 70px;
 }

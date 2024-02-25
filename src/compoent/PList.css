@@ -58,22 +58,24 @@
   justify-content: space-around;
 }
 
+
+
 /* Estilos para dispositivos móviles */
-@media (max-width: 576px) {
+@media (max-width: 1140px) {
   @import url('https://fonts.cdnfonts.com/css/bahnschrift');
 
   .cajon {
     display: flex;
     flex-direction: column;
     font-family: 'Bahnschrift', sans-serif;
-    align-items: flex-start; /* Alinear el contenido a la izquierda */
-    margin-left: 10px; /* Agregar un margen a la izquierda */
-    margin-right: 10px; /* Agregar un margen a la derecha */
+    align-items: center; /* Centrar el contenido */
+    margin: 2px; /* Agregar un margen uniforme */
   }
 
   .producto {
-    margin-bottom: 24px;
+    margin-bottom: 4px;
     transition: background-color 0.2s ease;
+    text-align: center; /* Centrar el texto */
   }
 
   .producto.selected {
@@ -86,40 +88,32 @@
     color: #E63331;
   }
 
+  /* Detalles del producto */
   .product-details {
     display: flex;
-    margin: 4px;
+    flex-direction: column;
+    margin: 8px;
   }
 
   .n {
-    width: 100%; /* Ocupar todo el ancho disponible */
-    margin: 2px;
-    margin-right: 0;
-     justify-content: start; /* Eliminar el margen derecho */
-    text-align: right; /* Alinear el texto a la derecha */
+    width: 100%; 
+    text-align: center; 
   }
-
-  .n h3 {
-    margin: 1px;
-    font-size: 1.2rem;
-    text-align: left; /* Alinear el texto a la derecha */
-    color: black;
-     justify-content: start;
-  }
-
   .p {
-    width: 100%; /* Ocupar todo el ancho disponible */
-    margin-left: 0; /* Eliminar el margen izquierdo */
-    display: flex;
-    justify-content: space-between; /* Alinear los elementos en el espacio disponible */
+    width: 20%; 
+    text-align: left; 
   }
 
+  .n h3, .p p {
+    margin: 8px;
+    font-size: 1.2rem; 
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
   .price {
     display: flex;
-    margin: 4px;
-  }
-
-  .p p {
-    margin: 4px;
-      justify-content: space-around;
-  }}
+    margin: 8px;
+    justify-content: left;
+}
+};

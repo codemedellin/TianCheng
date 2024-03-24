@@ -1,0 +1,121 @@
+@import url('https://fonts.cdnfonts.com/css/bahnschrift');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Bahnschrift', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+  box-shadow: rgba(50, 50, 93, 0.23) 0px 30px 30px -20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.logo {
+  width: 5rem;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  width: 45%;
+}
+
+.nav-links li {
+  color: rgb(27, 27, 27);
+  font-size: 20px;
+  padding: 10px 12px;
+  margin: 0 8px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.nav-links li a {
+  color: rgb(27, 27, 27);
+}
+
+.nav-links li a.active {
+  color: #E63331;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+button {
+  border: none;
+  text-decoration: none;
+  font-size: 20px;
+  background: none;
+  color: rgb(27, 27, 27);
+}
+
+@media (max-width: 768px) {
+  .logo {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links-mobile {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    left: 0;
+    top: 10%;
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(27, 27, 27);
+  }
+
+  ul li {
+    padding: 16px 0;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+  }
+
+  .mobile-menu-icon {
+    position: absolute;
+    display: block;
+    right: 20px;
+  }
+
+  .nav-links-mobile li {
+    margin: 8px 0;
+  }
+
+  .nav-links-mobile li a {
+    color: rgb(27, 27, 27);
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  .nav-links-mobile li a.active {
+    color: #E63331;
+  }
+}

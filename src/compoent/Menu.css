@@ -1,0 +1,180 @@
+
+
+@import url(//db.onlinewebfonts.com/c/f7c58ab3a48dba52edc01e3ed4425a8d?family=Poster+Bodoni);
+
+@import url('https://fonts.cdnfonts.com/css/bahnschrift');
+
+
+@import url('https://fonts.cdnfonts.com/css/wonton');
+
+.menu-container {
+  text-align: center;
+  margin: 10px;
+}
+
+.menu-heading
+{
+   margin-top: 30px;
+}
+.menu-container h2 {
+font-family: 'Bahnschrift', sans-serif;
+ text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 40px;
+ 
+  
+}
+
+.menu-container h1 {
+  font-size: 10rem;
+  margin-bottom: 60px;
+  margin-top: -30px;
+   font-family: 'Wonton', sans-serif;
+   background-image: linear-gradient(to right, #E63331, #0c0c0c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   text-transform: uppercase;
+ 
+}
+
+.button-container {
+  margin-bottom: 10px;
+}
+
+.button-container button {
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-container button.active {
+  background-color: #7b170f;
+  color: white;
+}
+
+.search-input {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Estilos para la lista de productos */
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 20px;
+}
+
+@media (min-width: 576px) {
+  .product-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .product-list {
+    grid-template-columns: repeat(2.4, 1fr);
+  }
+}
+
+
+/* Estilos para pantallas de tamaño mediano (min-width: 576px) and
+@media  (max-width: 992px) {
+  .menu-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
+
+  .menu-container h1 {
+    font-size: 8rem;
+    margin-bottom: 50px;
+    margin-top: -25px;
+  }
+
+  .z {
+    margin: 2rem;
+  }
+
+  .y {
+    margin-left: 4rem;
+  }
+
+  .x {
+    margin-left: 6rem;
+  }
+}
+
+*/
+
+
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 1024px) {
+  .menu-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .menu-container h1 {
+    font-size: 6rem;
+    margin-bottom: 40px;
+    margin-top: -20px;
+  }
+
+  .z {
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+  }
+
+  .y {
+    order: 2;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .x {
+    order: 1;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+}
+
+
+@media (max-width: 320px) {
+ 
+  .product-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.product-list .product-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+}
+
+.z {
+  margin-bottom: -30px;
+  display: flex;
+  margin: 3rem;
+}
+
+.y {
+  order: -1; 
+  margin-top: 60px;
+   margin: 3rem;/* Mueve el elemento 'y' hacia la izquierda */
+}
+
+.x {
+  order: 1; 
+  margin-top: 10px;
+   margin-left: 4rem;/* Mueve el elemento 'x' hacia la derecha */
+}

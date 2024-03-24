@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1dc4e02c.css",
+    "main.js": "/static/js/main.3437c78c.js",
+    "static/js/453.bc73d2f9.chunk.js": "/static/js/453.bc73d2f9.chunk.js",
+    "static/media/Chowfan.webp": "/static/media/Chowfan.c2937d0a107412c2a6ac.webp",
+    "static/media/Gas.webp": "/static/media/Gas.5eaba14361d720e348cc.webp",
+    "static/media/Combinados.webp": "/static/media/Combinados.2c6bdabda5fd0226d41b.webp",
+    "static/media/arroz3.webp": "/static/media/arroz3.222968481828e0b507c5.webp",
+    "static/media/whatsapp.webp": "/static/media/whatsapp.ba50fa915b8eca3409b8.webp",
+    "static/media/Especiales.webp": "/static/media/Especiales.3a02e881d90b531d6f12.webp",
+    "static/media/agridulce.webp": "/static/media/agridulce.4759310e0045077d91aa.webp",
+    "static/media/Chowsuey.webp": "/static/media/Chowsuey.05c8663def2b4cd1875c.webp",
+    "static/media/arrozconcamarones2.webp": "/static/media/arrozconcamarones2.cf38116df161e09c4d38.webp",
+    "static/media/whatsappG.png": "/static/media/whatsappG.ae9f3af032b99cebb4f2.png",
+    "static/media/Instagram.webp": "/static/media/Instagram.109e99f2c17ba1da363e.webp",
+    "static/media/Entradas.webp": "/static/media/Entradas.628619b7f22515671c3d.webp",
+    "static/media/arroz5.webp": "/static/media/arroz5.f06496bbd5bb2c779ac8.webp",
+    "static/media/phone.webp": "/static/media/phone.586084a2be8fcdc520cb.webp",
+    "static/media/arroz4.webp": "/static/media/arroz4.89d7312785ffda8a724b.webp",
+    "static/media/Facebook.webp": "/static/media/Facebook.0c05ef882f8cf7bf6afc.webp",
+    "static/media/footer.webp": "/static/media/footer.007e24ca18c9e9a888ca.webp",
+    "static/media/arroz2.webp": "/static/media/arroz2.001574a6141dd0150d58.webp",
+    "static/media/arroz1.webp": "/static/media/arroz1.6cff13017dc5f64a0608.webp",
+    "static/media/fondob.png": "/static/media/fondob.2ac35560a504af56339f.png",
+    "static/media/fondoR.png": "/static/media/fondoR.7efdaf84448747041b6b.png",
+    "static/media/Kung.webp": "/static/media/Kung.89dcc684a68d85db9b9e.webp",
+    "static/media/Chef.webp": "/static/media/Chef.4db1474423e3731afb9e.webp",
+    "static/media/fondoR.webp": "/static/media/fondoR.3f5ec0ef53a81181b15b.webp",
+    "static/media/Tian.webp": "/static/media/Tian.04c193e209975f8dc790.webp",
+    "static/media/fondob.webp": "/static/media/fondob.d8a415b212183d35cad2.webp",
+    "index.html": "/index.html",
+    "main.1dc4e02c.css.map": "/static/css/main.1dc4e02c.css.map",
+    "main.3437c78c.js.map": "/static/js/main.3437c78c.js.map",
+    "453.bc73d2f9.chunk.js.map": "/static/js/453.bc73d2f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1dc4e02c.css",
+    "static/js/main.3437c78c.js"
+  ]
+}

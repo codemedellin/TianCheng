@@ -1,0 +1,12 @@
+# Ignora archivos de configuración
+config.json
+
+# Ignora archivos temporales
+*.tmp
+
+# Ignora directorios de dependencias
+node_modules/
+
+# Ignora archivos de construcción
+build/
+dist/
